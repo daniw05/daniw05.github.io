@@ -1,0 +1,41 @@
+body{
+  background-image: url("gradientgeometricbackground.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.image1{
+  height: 300px;
+}
+
+#borderimg{
+  background-color: #10570fff;
+  color: #c1d7c1ff;
+}
+
+#wrapper{
+ width:60%;
+ margin: auto;
+ margin-top: 30px;
+}
+
+ul.specialborder{
+  list-style-image: url("stardewvalleycowpngicon.png");
+}
+
+.specialborder{
+  border: 50px solid;
+  border-image-slice: 12 12 12 12;
+  border-image-width: 12px 12px 12px 12px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat repeat;
+  border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-5.png");
+  border-style: solid;
+}
+img.specialborder{
+  width: 300px;
+  height: auto;
+}
